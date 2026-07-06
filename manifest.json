@@ -1,9 +1,10 @@
 {
   "manifest_version": 3,
   "name": "Dynamic Live Cropper",
-"version": "1.2",
+  "version": "1.2",
   "description": "Fija un reflejo visual en tiempo real de cualquier área de una pestaña en una ventana flotante (no interactuable).",
   "permissions": ["activeTab", "scripting", "desktopCapture"],
+  "action": {},
   "background": {
     "service_worker": "background.js"
   }
